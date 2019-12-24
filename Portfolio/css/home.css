@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  background: url(./images/greymountain.jpeg);
+  height: 753px;
+}
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
+}
+.menu ul li {
+  list-style-type: none;
+  margin: 0 20px;
+  color: #ecebf3;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #ecebf3;
+}
+a:hover {
+  color: rgb(212, 63, 63);
+}
+.intro {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 70px;
+}
+p {
+  color: rgb(230, 182, 182);
+  padding: 70px 300px 0px 400px;
+  font-size: 20px;
+}

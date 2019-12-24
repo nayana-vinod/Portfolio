@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  background: url(./images/greymountain.jpeg);
+  height: 753px;
+}
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
+}
+.menu ul li {
+  list-style-type: none;
+  margin: 0 20px;
+  color: #ecebf3;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #ecebf3;
+}
+a:hover {
+  color: darksalmon;
+}
+.heading {
+  padding-left: 80px;
+  padding-top: 40px;
+  color: cyan;
+  font-size: 75px;
+}
+.inline {
+  display: inline-block;
+}
+.contact {
+  color: black;
+  margin: 200px 100px 0px 250px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: rgb(247, 243, 238);
+}
+img {
+  width: 50px;
+  border-radius: 50%;
+  float: right;
+  padding: 50px;
+  cursor: pointer;
+}

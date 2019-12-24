@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  background: url(./images/greymountain.jpeg);
+  height: 753px;
+}
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
+}
+.menu ul li {
+  list-style-type: none;
+  margin: 0 20px;
+  color: #ecebf3;
+  cursor: pointer;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #ecebf3;
+}
+a:hover {
+  color: darksalmon;
+}
+.inline {
+  display: inline-block;
+}
+.skillsheading {
+  padding-left: 40px;
+  color: cyan;
+  font-size: 75px;
+}
+.python {
+  width: 175px;
+  padding: 30px 40px 50px 100px;
+  display: inline;
+  float: left;
+}
+.text {
+  color: rgb(173, 204, 173);
+  font-size: 20px;
+  width: 300px;
+  padding-top: 30px;
+  display: inline-block;
+}
+.java {
+  width: 175px;
+  padding-left: 230px;
+  padding-right: 40px;
+}
